@@ -1,2 +1,2 @@
-# Web-Programming-
-Course - Henry
+# webprogramming
+Web Programming Project

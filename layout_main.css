@@ -1,0 +1,145 @@
+    .main {
+        background: url(bg.jpeg);
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        color: #2c3e50;    
+    }
+
+    *
+    {
+    font-family: sans-serif;
+    }
+
+    .gsu
+    {
+    font-weight: 400;
+    color: red;
+    }
+
+    .cs
+    {
+    font-weight: 400;
+    color: red;
+    }
+
+
+    a:hover
+    {
+        color: brown;
+        font-size: 20px;
+    }
+
+    .header_img {
+        text-align: center;
+        width: 20%;
+        height: auto;
+        border: 5px solid #fff;
+        border-radius: 5px;
+    }
+    .head-container
+    /*The First Block in the Page*/
+    
+    {
+        border-radius: 5px;
+        width: auto;
+        height: 480px;
+        text-align: center;
+    }
+    .card
+    /*Applies to all the cards below the header Card*/
+    
+    {
+        /* Add shadows to create the "card" effect */
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+    /* On mouse-over, add a deeper shadow */
+    
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    /* Add some padding inside the card container */
+    
+    .container {
+        background: white;
+        border-radius: 5px;
+        width: 49%;
+        height: 250px;
+        margin: 5px;
+        float: left;
+    }
+    .container2 {
+        background: white;
+        border-radius: 5px;
+        width: 49%;
+        height: 250px;
+        margin: 5px;
+        float: right;
+    }
+  
+    .assignments {
+        /*for the table*/
+        width: 80%;
+        text-align: center;
+        border: 0;
+        align-content: center;
+    }
+    tr:nth-child(even) {
+        background: #CCC
+    }
+    tr:nth-child(odd) {
+        background: #FFF
+    }
+    h2 {
+        font-family:sans-serif;
+        color: #34495e;
+        font-size: 48px;
+        text-align: center;
+    }
+    h3 {
+        padding-left: 15px;
+        font-family: sans-serif;
+        color: #666;
+    }
+    p {
+        font-family:sans-serif;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 25px;
+    }
+    .interests {
+        font-family:sans-serif;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px;
+    }
+    .complink {
+        padding-left: 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .interests_cards {
+        width: auto;
+        height: 50px;
+        background: #2c3e50;
+        border-radius: 5px;
+        float: left;
+        margin: 10px;
+    }
+    .links {
+        font-family:sans-serif;
+        padding: 15px;
+        color: #407fbd;
+    }
+    li {
+        font-family:sans-serif;
+        line-height: 25px;
+    }
