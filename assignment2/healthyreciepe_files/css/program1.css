@@ -1,0 +1,128 @@
+html{
+background-image:url("background.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+padding:30px;
+}
+
+body{
+background-color:#FFCC00;
+font-family:Georgia, Verdana;
+padding:30px;
+}
+p{
+text-align:justify;
+}
+.main_head{ 
+background-color:#F0F0F0;
+text-align:center;
+color:#A4A400;
+letter-spacing:2px;
+}
+
+
+
+#nav {
+    float:left;
+	margin-left:50px;
+    padding:0px;	      
+}
+
+ul#menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+   
+}
+ul#menu li{
+ display: inline;
+ color:#F0F0F0;
+}
+
+ul#menu li a {
+    background-color: #DCD191;
+    color: #003366;
+    padding: 6px;
+    text-decoration: none;
+	border-right-color:#003366;
+	border-right-style:solid;
+	border-right-width:15px;
+	overflow:hidden;
+	font-weight:bold;
+}
+
+ul#menu li a:hover {
+    background-color: #F0F0F0;
+}
+th {
+    text-align: center;
+	background-color:#003366;
+	color:#FFFFFF;
+	border:solid;
+	border-color:#FFFFFF;
+	border-width:2px;
+	padding:5px;
+	border-collapse:collapse;
+}
+
+td
+{
+	border:solid;
+	border-color:#FFFFFF;
+	border-width:2px;
+	padding:5px;
+	border-collapse:collapse;
+}
+ul {
+    list-style-image: url("bullet.png");
+    margin-left: 2em;
+}
+ul li {
+    position: relative;
+    left: 2em;
+}
+
+.image_float2{
+float:left;
+}
+
+.serve{
+font-weight:bold;
+}
+.intro{
+font-weight:bold;
+}
+.bold_font{
+font-weight:bold;
+font-size:20px;
+}
+.cook_instructions{
+font-weight:bold;
+}
+.rating_font
+{
+text-align:justify;
+}
+
+.ratings_head{
+background-color:#F0F0F0;
+border:solid 2px white;
+color:#A4A400;
+font-weight:bold;
+border-collapse:collapse;
+
+}
+
+.ratings_table{
+background-color:#CC9933;
+color:#FFFFFF;
+margin-top:20px;
+width:45%;
+border:solid 2px white;
+border-collapse:collapse;
+}
+
+a:hover{
+color:Red;
+}
