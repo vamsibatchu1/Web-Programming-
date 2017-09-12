@@ -26,7 +26,9 @@
 }
 
 
-
+.nav1 li .active {
+    border-bottom: 2px solid yellow;
+}
 
 @-keyframes grow-90{
    from { right: 100%; }

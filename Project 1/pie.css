@@ -36,6 +36,9 @@ div {	margin: 0; padding: 0;}
     background-color: #111;
 }
 
+.nav1 li .active {
+    border-bottom: 2px solid yellow;
+}
 
 /* Header start */
 #header {
@@ -401,7 +404,7 @@ div {	margin: 0; padding: 0;}
 #pyr_chart ul :nth-child(6) { 
 	width: 0;
 	height: 0;
-	border-color: transparent #d8d6cb transparent #d8d6cb;
+	border-color: transparent #fff transparent #fff;
 	border-width: 0px 150px 300px 150px;
  	border-style:solid;
 }
@@ -463,10 +466,8 @@ div {	margin: 0; padding: 0;}
 	height: 65px;
 	text-decoration: none;
 	text-align: center;
-	color: #565446;
-	background: #fcfcfc;
-	background-image: -moz-linear-gradient(100% 40% 270deg,#FFFFFF, #eaeaea, #f5f5f5 100%);
-	background-image: -webkit-gradient(linear, 0% 45%, 0% 69%, from(#FFFFFF), to(#EDEDED), color-stop(.4,#F7F7F7));
+	color: #ccc;
+	background:#34495e;
 	-moz-border-radius: 4px;
  	-webkit-border-radius: 4px;
  	border-radius: 4px;
@@ -474,18 +475,18 @@ div {	margin: 0; padding: 0;}
  	 -webkit-box-shadow: #c0bca7 0px 1px 0px;
 	box-shadow: #c0bca7 0px 1px 0px;
 	-webkit-transition: all .3s ease-out;
-  opacity:.5;
+    opacity:.9;
 }
  
-#btn_panel li:last-child a{color:#c33702; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
+#btn_panel li:last-child a{color:#f1c40f; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
 
 #q1_2005:target #btn_panel li:last-child a, #q2_2009:target #btn_panel li:last-child a, #q3_2009:target #btn_panel li:last-child a, #q4_2009:target #btn_panel li:last-child a, #q1_2010:target #btn_panel li:last-child a
 {color:#565446; -moz-transform: scale(1); -webkit-transform: scale(1); -o-transform: scale(1); opacity:.5;}
-#q1_2005:target #btn_panel li:nth-child(1) a{color:#c33702; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
-#q2_2009:target #btn_panel li:nth-child(2) a{color:#c33702; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
-#q3_2009:target #btn_panel li:nth-child(3) a{color:#c33702; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
-#q4_2009:target #btn_panel li:nth-child(4) a{color:#c33702; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
-#q1_2010:target #btn_panel li:nth-child(5) a{color:#c33702; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
+#q1_2005:target #btn_panel li:nth-child(1) a{color:#f1c40f; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
+#q2_2009:target #btn_panel li:nth-child(2) a{color:#f1c40f; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
+#q3_2009:target #btn_panel li:nth-child(3) a{color:#f1c40f; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
+#q4_2009:target #btn_panel li:nth-child(4) a{color:#f1c40f; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
+#q1_2010:target #btn_panel li:nth-child(5) a{color:#f1c40f; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); opacity:1;}
 /* button panel end */
 
 #btn_panel li a
