@@ -46,7 +46,7 @@ li a:hover {
     background-color: #111;
 }
 
-.interactive-map {
+.imap {
   display: block;
   width: 60%;
   float:none;
@@ -81,7 +81,7 @@ li {
     float: left;
 }
 
-.interactive-map > img {
+.imap > img {
   vertical-align: top;
   position: relative;
   width: 100%;
@@ -92,7 +92,7 @@ li {
 
 /* Gap filler */
 
-.tooltip-item::after {
+.ttitem::after {
   content: '';
   position: absolute;
   width: 360px;
@@ -104,7 +104,7 @@ li {
   transform: translateX(-50%);
 }
 
-.tooltip:hover .tooltip-item::after {
+.tooltip:hover .ttitem::after {
   pointer-events: auto;
 }
 
@@ -112,7 +112,7 @@ li {
 
 /* Tooltip */
 
-.tooltip-content {
+.tt_content {
   position: absolute;
   width: 256px;
   left: -28%;
@@ -129,7 +129,7 @@ li {
   border-radius: 5px;
 }
 
-.tooltip-effect-4 .tooltip-content {
+.tpeffect .tt_content {
   -webkit-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
   -webkit-transform: scale3d(0.7, 0.3, 1);
@@ -138,7 +138,7 @@ li {
   transition: opacity 0.2s, transform 0.2s;
 }
 
-.tooltip:hover .tooltip-content {
+.tooltip:hover .tt_content {
   pointer-events: auto;
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, 0);
@@ -152,7 +152,7 @@ li {
 
 /* Arrow */
 
-.tooltip-content::after {
+.tt_content::after {
   content: '';
   top: 100%;
   left: 50%;
@@ -216,7 +216,7 @@ li {
 
 /* Tooltip content*/
 
-.tooltip-text {
+.tt_text {
   font-size: 0.7em;
   line-height: 1.35;
   display: block;
@@ -367,17 +367,17 @@ svg {
     transform: rotate(-90deg);
 }
 
-.circle_animation {
+.cir_anim {
   stroke-dasharray: 600; /* this value is the pixel circumference of the circle */
   stroke-dashoffset: 440;
 }
 
-.html .circle_animation {
+.html .cir_anim {
     -webkit-animation: html 1s ease-out forwards;
     animation: html 1s ease-out forwards;
 }
 
-.css .circle_animation {
+.css .cir_anim {
     -webkit-animation: css 1s ease-out forwards;
     animation: css 1s ease-out forwards;
 }
@@ -407,30 +407,6 @@ svg {
 }
 
 
-/*Spinner*/
-.spinner { 
-  -webkit-animation: sk-scaleout 2.0s 1 ease-in-out;
-  animation: sk-scaleout 2.0s 1 ease-in-out;
-}
-
-@-webkit-keyframes sk-scaleout {
-  0% { -webkit-transform: scale(0) }
-  100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
-
-@keyframes sk-scaleout {
-  0% { 
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  } 100% {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-    opacity: 0;
-  }
-}
 
 /*blink*/
 
@@ -476,11 +452,7 @@ svg {
     -o-animation-iteration-count: infinite;
 }
 
-/* Search Bar*/
 
-/* * Copyright (c) 2012 Thibaut Courouble
- * Licensed under the MIT License
-   ================================================== */
 
 body {
     background: #f7f7f7;
@@ -513,7 +485,7 @@ input {
     color: #555860;
 }
 
-.search {
+.searchbar {
     position: absolute;
     margin: 0 auto;
     width: 300px;
@@ -521,7 +493,7 @@ input {
     right:10px;
 }
 
-.search input {
+.searchbar input {
     height: 26px;
     width: 100%;
     padding: 0 12px 0 25px;
@@ -542,7 +514,7 @@ input {
     box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
 }
 
-.search input:focus {
+.searchbar input:focus {
     outline: none;
     border-color: #66b1ee;
     -webkit-box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
@@ -553,7 +525,7 @@ input {
 }
 
 
-.search input:focus + .results { display: block }
+.searchbar input:focus + .results { display: block }
 
 
 :-moz-placeholder {
@@ -566,14 +538,12 @@ input {
     font-weight: 200;
 }
 
-.lt-ie9 .search input { line-height: 26px }
+.lt-ie9 .searchbar input { line-height: 26px }
 
 
 /*Pulse*/
 
-
-
-.pulse-button {
+.pulser {
 
   position: relative;
   width: 15px;
@@ -591,7 +561,7 @@ input {
   animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 }
 
-.pulse-button2 {
+.pulser2 {
 
   position: relative;
   width: 15px;
@@ -608,7 +578,7 @@ input {
   -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 }
-.pulse-button:hover 
+.pulser:hover 
 {
   -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
 }
