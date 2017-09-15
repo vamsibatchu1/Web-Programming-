@@ -126,6 +126,7 @@ button:active {
 .buttons
 {
    float: right; 
+   margin-top:15px;
 }
 
 .gas_avail
@@ -160,7 +161,6 @@ button:active {
 }
 
 .cards_main {  
-  /* This section calls the slideInFromLeft animation we defined above */
   animation: 1s ease-out 0s 1 slideInFromLeft;
   display: table;
   margin: 0 auto;
@@ -177,12 +177,6 @@ button:active {
   
    box-shadow: 0px 0px 150px #000000;
     z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.2);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.2);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.2);
     transition: all 200ms ease-in;
     transform: scale(1.2);
 }
