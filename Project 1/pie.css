@@ -409,7 +409,7 @@ div {	margin: 0; padding: 0;}
  	border-style:solid;
 }
 
-/*Pyramid chart data (height value) */
+
 #ivan:target #pyr_chart ul :nth-child(2) { height: 292px;}
 #ivan:target #pyr_chart ul :nth-child(3) { height: 277px;}
 #ivan:target #pyr_chart ul :nth-child(4) { height: 259px;}
@@ -434,7 +434,7 @@ div {	margin: 0; padding: 0;}
 #ike:target #pyr_chart ul :nth-child(3) { height: 290px;}
 #ike:target #pyr_chart ul :nth-child(4) { height: 290px;}
 #ike:target #pyr_chart ul :nth-child(5) { height: 269px;}
-/* Charts end */
+
 
 /* button panel start */
 #btn_panel {
