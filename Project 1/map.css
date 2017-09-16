@@ -280,7 +280,7 @@ li {
 
 .chart_legend
 {
-   left:100px;
+   left:20px;
    position: absolute;
    animation: 1s ease-out 0s 1 slideInFromLeft; 
 }
