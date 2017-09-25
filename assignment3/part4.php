@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Restaurant</title>
-<link type="text/css" rel="stylesheet" href="./restaurant.css">
+<link type="text/css" rel="stylesheet" href="./part4.css">
 </head>
 <body>
 <?php

@@ -1,7 +1,7 @@
 <html> 
   <head> 
   <title>Checker Board Design</title>
-  <link type="text/css" rel="stylesheet" href="./checkerboard.css">
+  <link type="text/css" rel="stylesheet" href="./part2.css">
   </head>
   <body> 
   <h2>Checker Board - using Nested For-Loop</h2>
