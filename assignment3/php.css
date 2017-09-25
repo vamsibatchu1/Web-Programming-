@@ -1,0 +1,21 @@
+.sol_list
+{
+    background: #407fbd;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sol_list h3
+{
+color: white;
+font-size: 30px;
+}
+
+.sol_list li a
+{
+color: white;
+font-size: 24px;
+
+}
