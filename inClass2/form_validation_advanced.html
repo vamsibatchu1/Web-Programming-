@@ -1,0 +1,36 @@
+
+<html>
+  <head>
+    <title>My Form</title>
+    <link type="text/css" rel="stylesheet" href="form.css"/>
+  </head>
+
+  <body>
+  <table class="form">
+    <tr> <td> <form action="form_validation3.php" method="post">
+          <p class="label">Title:&nbsp;&nbsp;<select name="title">
+	<option value="Mr">Mr</option>
+	<option value="Mrs">Mrs</option>
+	<option value="Ms">Ms</option>
+        <option value="Dr">Dr</option>
+	<option value="Prof">Prof</option>
+	</select>
+<br><br>
+
+          <p class="label">First name:&nbsp;&nbsp;&nbsp;<input name="firstname" type="text" size="20" /></p>
+          <br>
+          <p class="label">Family name:&nbsp;&nbsp;&nbsp;<input name="lastname" type="text" size="20" /></p>
+          <br>
+          <p class="label">Year Of Birth:&nbsp;&nbsp;&nbsp;<input type="text" name="year" size="4" /></p>
+          <br>
+          <p class="label">Address:</p>
+          <p><textarea name="address" cols="20" rows="4"></textarea></p>
+<br>
+          <p><input type="submit" value="Submit"
+          name="submit" /></p>
+          <p><input type="reset" value="Reset"
+          name="reset" /></p>
+  </form>
+  </td></tr></table>
+  </body>
+</html>

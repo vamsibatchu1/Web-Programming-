@@ -1,0 +1,17 @@
+body{
+background-color : #407fbd;
+}
+
+.label{
+font-weight : bold;
+}
+
+.form{
+width:400px;
+height:400px;
+padding:20px;
+margin-top:10%;
+margin-left:35%;
+background-color : seashell;
+border:1px solid black;
+}
