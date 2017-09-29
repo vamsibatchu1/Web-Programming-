@@ -1,0 +1,105 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-color:lavender;
+	font-family:Arial;
+	font-size:18px;
+	text-align:center;
+}
+
+.container
+{
+	
+	border:1px solid black;
+	font:10px Times New Roman Black;
+	margin:10px auto;
+	padding:0;
+	width:600px;
+	text-align:center;
+}
+
+
+
+#event_table
+{
+	border-collapse:collapse;
+	border:1px solid black;
+	margin:1px 1px 1px;
+	text-align: center;
+	width: 600px;
+	color:pink;
+	font-size:14px;
+}
+
+#event_table .table_header
+{
+	color:#000;
+	font-style:Italic;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:20px;
+	
+	padding-left:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align:center;
+	text-decoration:none;
+	background: LightSalmon;
+}
+
+#event_table .table_header td
+{
+	width:25%;
+	border: 1px solid black;
+	padding-right: 10px;
+}
+
+#event_table .table_header:first-child
+{
+	width:60px;
+}
+h3
+{
+font-size:10px;
+text-align: right;
+}
+#event_table .even_row
+{
+	background-color:black;
+	height:40px;
+}
+
+#event_table .odd_row
+{
+	background-color:#2c8768;
+	height:40px;
+}
+
+#event_table .hr_td
+{
+	text-align:center;
+	font-family:Times New Roman;
+	font-size:14px;
+	width:60px;
+	Border-right: 1px solid black;
+	padding-right: 10px;
+}
+.lunch{
+ background-color: red;
+}
+.break
+{
+color: violet;
+}
+
+.work{
+ font-weight: Bold;
+}
+
+
+

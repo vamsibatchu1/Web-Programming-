@@ -1,0 +1,27 @@
+.main{
+padding:2%;
+border-radius: 25px;
+margin-left:auto;
+margin-right:auto;
+margin-top:60px;
+margin-bottom:60px;
+width:60%;
+border:1px solid black;
+background-color: LightSalmon;
+}
+
+h1{
+color:Black;
+text-align:center;
+}
+.foptions{
+float:right;
+padding-left:6%;
+}
+
+.itable{
+width:120%;
+}
+body{
+background-color: lavender;
+}
