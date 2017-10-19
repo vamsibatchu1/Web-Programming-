@@ -1,0 +1,55 @@
+
+body
+{
+font-family:arial;
+font-size:20px;
+background-color:#407fbd;
+padding: 50px, 0px, 50px, 50px;
+color:white;
+}
+h2{
+	text-align:center;
+	padding:10px;
+}
+
+ul {
+	text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    color: #f1c40f;
+}
+table{
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+#employeeIncome
+{
+    background: white;
+    color: grey;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#employeeIncome th
+{
+    color: #1abc9c;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#employeeIncome td
+{
+    color: ##34495e;
+    font-size: 16px;
+    padding: 5px;
+}

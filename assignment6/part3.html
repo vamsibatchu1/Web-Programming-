@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Part 3</title>
+
+	<script type="text/javascript" src="part3.js"></script>	<link href="assignment6.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="LoadingPage()"><h2>Part 3</h2>		 <ul>  <li><a href="part1.html">Part1</a></li><li><a href="part2.html">Part2</a></li><li><a href="part3.html">Part3</a></li></ul>
+
+Select Number of Tiles:
+<select id="nooftiles" onchange="TilesNumberChange()">
+	<option selected>0</option>
+	<option>8</option>
+	<option>10</option>
+	<option>12</option>
+</select>
+
+<br><br/>
+
+
+Select Difficulty Level
+<select id="difficulty" onchange="SetDifficulty()">
+	<option selected>3</option>
+	<option>5</option>
+	<option>8</option>
+</select>
+
+<br/><br/>
+<button onclick="arrangeTiles(0)"> Restart </button>
+<button onclick="startGame()">Start</button>
+
+<br/><br/>
+<div id="info">
+
+</div>
+<div id="Difficulty">
+
+</div>
+
+<br/>
+
+Rules:<br/>Your goal is to match each of the pictures with its copy.<br/>Click the two matching images to reveal them.<br/>Please wait for images to disappear, and then make the next attempt.<br/>You are given 3 levels of difficulty 3, 5, 8 seconds to memorize the locations, after then the pictures will be hidden. <br/>
+
+<br/><br/>
+<div id="tiles">
+
+</div>
+<div>
+<p>                             
+<a href="http://validator.w3.org/check/referer">
+<img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML">
+</a>                            
+</p>   
+</div>	
+</body>
+</html>
